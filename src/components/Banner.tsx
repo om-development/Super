@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import { HexagonBackground } from "./Hexagon"
 
 const Banner = () => {
@@ -9,12 +10,12 @@ const Banner = () => {
           Over 1 million interactions, 50,000 success stories. Make yours now.
         </h3>
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          <button className="bg-white text-blue-600 font-medium px-8 py-3 rounded-md text-sm sm:text-base transition-colors hover:bg-blue-600 hover:text-white">
+          <Link to="/job" className="bg-white text-blue-600 font-medium px-8 py-3 rounded-md text-sm sm:text-base transition-colors hover:bg-blue-600 hover:text-white">
             Search Job
-          </button>
-          <button className="bg-yellow-500 text-white font-medium px-8 py-3 rounded-md text-sm sm:text-base transition-colors border-2 border-transparent hover:bg-blue-600 hover:border-yellow-500">
+          </Link>
+          <Link to="/job" className="bg-yellow-500 text-white font-medium px-8 py-3 rounded-md text-sm sm:text-base transition-colors border-2 border-transparent hover:bg-blue-600 hover:border-yellow-500">
             Apply Job Now
-          </button>
+          </Link>
         </div>
       </div>
     </HexagonBackground>
