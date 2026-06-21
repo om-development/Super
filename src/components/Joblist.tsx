@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import JobCards from "./JobCards"
 
 const Joblist = () => {
@@ -15,9 +16,9 @@ const Joblist = () => {
           <JobCards image="/job1.png" />
           <JobCards image="/job2.png" />
         </div>
-        <button className="bg-blue-600 text-white text-sm font-medium px-6 py-2.5 rounded-sm transition-colors hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600">
+        <Link to="/job" className="bg-blue-600 text-white text-sm font-medium px-6 py-2.5 rounded-sm transition-colors hover:bg-white hover:text-blue-600 hover:border hover:border-blue-600">
           Load More Listing
-        </button>
+        </Link>
       </div>
     </div>
   )

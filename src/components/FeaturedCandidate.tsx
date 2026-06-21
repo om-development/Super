@@ -20,7 +20,7 @@ const FeaturedCandidate = () => {
           </h3>
         </div>
         <a
-          href="#"
+          href="/notfound"
           className="text-blue-400 font-normal text-sm whitespace-nowrap"
         >
           Browse All Candidates &gt;

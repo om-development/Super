@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="w-full bg-blue-700 pb-8">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 px-4 py-8 sm:px-6 lg:px-12">
         <div className="flex flex-col gap-2 lg:col-span-2">
-          <a href="#" className="shrink-0">
+          <a href="/" className="shrink-0">
             <img src="/logowhite.png" className="w-34" alt="Logo" />
           </a>
           <h3 className="font-bold text-white text-base uppercase tracking-wide">
@@ -16,7 +16,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-1.5">
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Location ....{" "}
@@ -24,7 +24,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 location Lorem, ipsum dolor.
@@ -32,7 +32,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 support@supergmail.com
@@ -48,7 +48,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-1.5">
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Browse jobs
@@ -56,7 +56,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 browse candidates
@@ -64,7 +64,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Candidate dashpoard
@@ -72,7 +72,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Job alerts
@@ -80,7 +80,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 My Bookmarks
@@ -96,7 +96,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-1.5">
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Site map
@@ -104,7 +104,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Terms of use
@@ -112,7 +112,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Privacy center
@@ -120,7 +120,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Security center
@@ -133,7 +133,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-1.5">
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Contact us
@@ -141,7 +141,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 About Us
@@ -149,7 +149,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Terms
@@ -157,7 +157,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 Pakages
@@ -165,7 +165,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 FAQ
@@ -181,7 +181,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-1.5">
             <li>
               <a
-                href="#"
+                href="/notfound"
                 className="text-white/80 hover:text-white text-base font-medium transition-colors"
               >
                 We dont send spam so dont worry

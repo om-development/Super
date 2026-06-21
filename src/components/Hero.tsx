@@ -27,28 +27,10 @@ const AVATARS = [
     tooltip: "Guillermo Rauch",
   },
 ];
-import { ShiftingDropDown } from "./ShiftingDropDown";
-
 const Hero = () => {
   return (
     <div className="bg-linear-to-b from-blue-900 mb-10 to-blue-700 w-full overflow-x-hidden shadow-sm">
       <div className="flex flex-col justify-between sm:px-6 lg:px-12 space-y-1 px-4 py-6">
-        <div className="hidden lg:block">
-        <div className="w-full max-w-7xl mx-auto px-4 h-19 flex items-center mb-5 justify-between">
-        <a href="#" className="shrink-0">
-          <img src="/logowhite.png" className="w-28" alt="Logo" />
-        </a>
-        <div className="flex items-center gap-2 xl:gap-4">
-          <ShiftingDropDown />
-          <button className="rounded-lg border border-white/60 bg-transparent px-5 py-3 max-xl:text-sm xl:text-base font-medium text-white whitespace-nowrap transition-colors hover:bg-white hover:text-blue-900">
-            Login / Sign Up
-          </button>
-          <button className="rounded-lg bg-white px-5 py-3 max-xl:text-sm xl:text-base font-medium whitespace-nowrap transition-colors hover:bg-white/90" style={{ color: '#1e3a8a' }}>
-            Add Job
-          </button>
-        </div>
-          </div>
-          </div>
       <div className="lg:flex lg:flex-row lg:items-center">
         <div className="lg:w-1/2">
           <div className="text-white text-3xl font-medium">

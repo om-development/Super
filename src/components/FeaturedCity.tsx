@@ -8,7 +8,7 @@ const FeaturedCity = () => {
           <h1 className="font-bold text-xl">Featured Cities</h1>
           <h3 className="text-gray-500">Know your worth and find the job that qualify your life</h3>
         </div>
-        <a href="#" className="text-blue-400 font-normal text-sm whitespace-nowrap">
+        <a href="/notfound" className="text-blue-400 font-normal text-sm whitespace-nowrap">
           Browse All Locations &gt;
         </a>
       </div>

@@ -1,31 +1,18 @@
-import './App.css'
-import Banner from './components/Banner';
-import Banner2 from './components/Banner2';
-import FeaturedCandidate from './components/FeaturedCandidate';
-import FeaturedCity from './components/FeaturedCity';
-import Footer from './components/Footer';
-import Hero from './components/Hero'
-import How from './components/How';
-import Joblist from './components/Joblist';
-import Navbar from './components/Navbar'
-import './index.css'
+import { createBrowserRouter, RouterProvider } from 'react-router'
+import Home from './pages/Home'
+import Job from './pages/Job'
+import LoginSignUp from './pages/LoginSignUp'
+import PageNotFound from './pages/PageNotFound'
+
+const router = createBrowserRouter([
+  { path: '/', element: <Home /> },
+  { path: '/job', element: <Job /> },
+  { path: '/auth', element: <LoginSignUp /> },
+  { path: '*', element: <PageNotFound /> },
+])
 
 function App() {
- 
-  return (
-    <>
-      
-        <Navbar/>
-      <Hero />
-      <How />
-      <Joblist />
-      <FeaturedCity />
-      <Banner />
-      <FeaturedCandidate />
-      <Banner2/>
-      <Footer/>
-    </>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App

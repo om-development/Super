@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import { Search } from "lucide-react"
 import { LocationEdit } from "lucide-react"
 import { ChevronDown } from "lucide-react"
@@ -15,9 +16,9 @@ const HeroCard = () => {
           <h2>Location</h2>
           <ChevronDown className="absolute right-0 lg:relative lg:right-auto lg:ml-auto" />
         </div>
-        <button className="bg-yellow-500 h-14 rounded-lg lg:w-auto lg:px-10">
+        <Link to="/job" className="bg-yellow-500 h-14 rounded-lg lg:w-auto lg:px-10 flex items-center justify-center">
           Find Jobs
-        </button>
+        </Link>
       </div>
     </div>
   )
