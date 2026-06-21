@@ -402,7 +402,7 @@ function shallowEqualWithoutChildren(
   if (keysA.length !== keysB.length) return false;
   for (const k of keysA) {
    
-    if (a[k] !== b[k]) return false;
+    if (a[k as keyof HTMLMotionProps<'div'>] !== b[k as keyof HTMLMotionProps<'div'>]) return false;
   }
   return true;
 }
