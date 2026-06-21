@@ -4,7 +4,7 @@ import { Target } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="w-full mt-3 bg-blue-700 pb-8">
+    <div className="w-full bg-blue-700 pb-8">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 px-4 py-8 sm:px-6 lg:px-12">
         <div className="flex flex-col gap-2 lg:col-span-2">
           <a href="#" className="shrink-0">

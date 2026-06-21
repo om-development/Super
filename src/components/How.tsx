@@ -7,7 +7,7 @@ const How = () => {
       <div className="text-black font-extrabold text-xl">How It Works?</div>
       <div className="text-gray-500 text-small
        ">Job for anyone, anywhere </div>
-    <div className="flex gap-4 mt-10 space-x-0 md:space-x-7 lg:space-x-28  px-4 overflow-x-auto">
+    <div className="flex gap-4 mt-10 snap-x snap-mandatory space-x-0 md:space-x-7 lg:space-x-28  px-4 overflow-x-auto">
   <div className="shrink-0">
     <HowCard
       image="/card1.png"

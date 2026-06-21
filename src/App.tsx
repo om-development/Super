@@ -1,5 +1,7 @@
 import './App.css'
 import Banner from './components/Banner';
+import Banner2 from './components/Banner2';
+import FeaturedCandidate from './components/FeaturedCandidate';
 import FeaturedCity from './components/FeaturedCity';
 import Footer from './components/Footer';
 import Hero from './components/Hero'
@@ -18,7 +20,9 @@ function App() {
       <How />
       <Joblist />
       <FeaturedCity />
-      <Banner/>
+      <Banner />
+      <FeaturedCandidate />
+      <Banner2/>
       <Footer/>
     </>
   )
