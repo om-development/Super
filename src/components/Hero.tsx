@@ -1,3 +1,4 @@
+import Navbar from "./Navbar";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   AvatarGroup,
@@ -30,6 +31,7 @@ const AVATARS = [
 const Hero = () => {
   return (
     <div className="bg-linear-to-b from-blue-900 mb-10 to-blue-700 w-full overflow-x-hidden shadow-sm">
+      <Navbar transparent />
       <div className="flex flex-col justify-between sm:px-6 lg:px-12 space-y-1 px-4 py-6">
       <div className="lg:flex lg:flex-row lg:items-center">
         <div className="lg:w-1/2">

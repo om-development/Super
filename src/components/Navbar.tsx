@@ -2,9 +2,9 @@ import { User, Menu, Bell } from "lucide-react";
 import { ShiftingDropDown } from "./ShiftingDropDown";
 import { Link as RouterLink } from 'react-router'
 
-const Navbar = () => {
+const Navbar = ({ transparent }: { transparent?: boolean }) => {
   return (
-    <nav className="w-full bg-blue-700 relative z-50">
+    <nav className={`w-full bg-blue-700 ${transparent ? 'lg:bg-transparent' : ''} relative z-50`}>
       <div className="hidden lg:block">
         <div className="w-full max-w-7xl mx-auto px-4 h-19 flex items-center justify-between">
           <a href="/" className="shrink-0">
